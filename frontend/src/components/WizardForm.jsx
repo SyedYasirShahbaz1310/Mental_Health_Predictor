@@ -6,7 +6,7 @@ import Step1Profile from './Step1Profile';
 import Step2DigitalHabits from './Step2DigitalHabits';
 import Step3Wellness from './Step3Wellness';
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://mental-health-predictor-qxe2.vercel.app";
 
 const WizardForm = ({ onResult }) => {
   const [step, setStep] = useState(1);
